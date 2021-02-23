@@ -1,0 +1,33 @@
+-series GW1N
+-device GW1N-1
+-package QFN48
+-part_number GW1N-LV1QN48C6/I5
+
+
+-mod_name Gowin_PLL2
+-file_name gowin_pll2
+-path D:/Documents/GitHub/Tang-Nano_100BASE-FX_ping/src/ip/gowin_pll2/
+-type PLL
+-file_type vlg
+-dev_type GW1N-1
+-dyn_idiv_sel false
+-idiv_sel 2
+-dyn_fbdiv_sel false
+-fbdiv_sel 15
+-dyn_odiv_sel false
+-odiv_sel 2
+-dyn_da_en false
+-rst_sig true
+-rst_sig_p false
+-fclkin 50
+-rst_sig_i false
+-clkfb_sel 0
+-en_lock true
+-clkout_bypass false
+-en_clkoutp false
+-clkoutp_bypass false
+-en_clkoutd false
+-clkoutd_bypass false
+-en_clkoutd3 true
+-clkoutd3_src CLKOUT
+-rst_sig_s false
